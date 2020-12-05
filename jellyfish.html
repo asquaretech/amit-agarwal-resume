@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jellyfish</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
+
+
+  <link rel="icon" href="./images/Jellyfish/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <img src="./images/Jellyfish/jellyfish-logo.png" width="50" height="50" alt="">
+    <a class="navbar-brand" href="#">Jellyfish</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/amit-agarwal-263ab022">LinkedIn</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My Work
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./jellyfish.html">Jellyfish</a>
+            <a class="dropdown-item" href="#">Performance Dashboard</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Test4Rest</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!--overview-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <strong>Objective :</strong>
+        Identify a change to production code, run only the relevant tests so as to optimize the execution time, efficiency of tests and enhance productivity.
+        <br><br>
+        <strong>Problem Statement :</strong>
+
+        Today, It's a very common challenge for the agile teams to determine the relevant subset of tests to be executed for certifying a change in production code.
+        Functional test suite keeps growing with every sprint. code bases like control center we have close to 15,000+ tests and with shorter sprint cycle of 1/2 weeks, it's quite challenging to identify the right set of tests to be executed for a
+        given
+        source code change. General practise is since <strong>"Tests are Automated, Run Them ALL !!"</strong> But, If tests ran infinitely quickly, we would run all the tests all the time, but they are not, so we need to balance cost vs value when running them.
+        <br><br>
+        <strong>"Test Impact Analysis (TIA)</strong> is a modern way of speeding up the test automation phase of a build. It works by analyzing the call-graph of the source code to work out which tests should be run after a change to production
+        code."
+        The Idea is to build an Intelligence in the software testing framework itself (either its a Junit or functional, Integration automation tests) to determine the exact set of tests that are really needed to certify a code-change. To build this
+        solution we need to track the dependency between source classes\methods and mapping of tests with the source code.
+
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- image-1-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="./images/Jellyfish/jellyfish-overview.png" width="1000" height="250" alt="">
+
+      </div>
+
+    </div>
+
+  </div>
+  <hr>
+
+  <!-- image-1-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="./images/Jellyfish/jellyfish-codeDep.png" width="1000" height="600" alt="">
+
+      </div>
+
+    </div>
+
+  </div>
+  <hr>
+
+  <!-- image-1-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="./images/Jellyfish/jellyfish-4pillars.png" width="1000" height="600" alt="">
+      </div>
+
+    </div>
+
+  </div>
+  <hr>
+
+  <!-- image-1-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="./images/Jellyfish/jellyfish-graph.png" width="1000" height="600" alt="">
+
+      </div>
+
+    </div>
+
+  </div>
+  <hr>
+
+
+
+
+
+
+
+</body>
+
+</html>
