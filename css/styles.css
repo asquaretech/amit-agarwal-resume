@@ -89,3 +89,12 @@ a {
 a:hover {
   color: #EAf6f6;
 }
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+#footer{
+  padding: 2% 10%;
+  text-align: center;
+}
