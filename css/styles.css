@@ -72,6 +72,15 @@ h2 {
   text-align: center;
 }
 
+h5 {
+  color: Black;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
 hr {
   border-style: none;
   border-top-style: dotted;
@@ -97,4 +106,8 @@ a:hover {
 #footer{
   padding: 2% 10%;
   text-align: center;
+}
+
+#scrum-image{
+  border: 1px solid;
 }
